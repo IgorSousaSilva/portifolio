@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Igor Sousa Silva - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">IG</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🚀,</p>
+          <h1>Sou o Igor Sousa</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/igorsousasilva/" class="outer-shadow azul" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://web.whatsapp.com/" class="outer-shadow verde" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/IgorSousaSilva" class="outer-shadow lilas" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/guerreiro_00/" class="outer-shadow rosa" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./src/imagens/igor.jpg" alt="foto do perfil igor" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="./src/imagens/igor-png.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Igor Sousa Silva e sou um desenvolvedor frontend em
+              formação!</strong>
+              SOU MUITO FÂ da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Gosto de Desafios comos novos projetos, gosto de participar de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. 
+          </p>
+
+          <p>
+            A propósito, gosto tambem de filmes, series, jogos ,músicas. 😉  
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript amarelo">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p> Aprendizagem com Laços de repetições, Condicionais, Funções, Funções anonimas, Escopos, Arrow function, Arrays, Objetos, Splice e Slice, This, Manipulaçao dom, Api, Promise, SetInterval e SetTimeout, Filter, Map, Reduce, Datas em js,</p>
+        </div>
+
+        <div class="informacoes html laranja">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Estruturas com Links, Imagens, Videos, Audios, Favicon, Emoji, Listas, Tabelas, Titulos, Paragrafos, Tags semanticas , Inputs, Checkbox, Radio, Select, Button, Iframes</p>
+        </div>
+
+        <div class="informacoes css azul">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Aprendi bastante coisa em css como, Margin, Padding, Bordas, Tipos de caixas, Ids e Class, Vh e Vw, Medias queries, Posicionamento com display flex e grid, pseudos-classes, background, box-shadow</p>
+        </div>
+
+        <div class="informacoes github lilas">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>hospedar repositórios do Git, pull requests, github pages, revisão de código.</p>
+        </div>
+
+        <div class="informacoes git laranja">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p> Apenas basico como git Clone, git Pull, git Init, git Ignore, como dar commit, fazer git push, Atualizar repositorio se for preciso.</p>
+        </div>
+
+        <div class="informacoes react azul">
+          <div class="logo">
+            <i class="devicon devicon-react-plain"></i>
+          </div>
+          <h3>React</h3>
+          <p> Ainda estou <strong>Estudando</strong> React</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://igorsousasilva.github.io/Ravi/" target="_blank">
+            <img src="./src/imagens/projeto-ravi.jpg" alt="projeto ravi" />
+            <h3>Projeto 1</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://igorsousasilva.github.io/oakley/" target="_blank">
+            <img src="./src/imagens/projeto-oakley.jpg" alt="projeto oakley" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">          
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://igorsousasilva.github.io/corinthians/" target="_blank">
+            <img src="./src/imagens/projeto-corinthians.jpg" alt="projeto corinthians" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://igorsousasilva.github.io/x-men/" target="_blank">
+            <img src="./src/imagens/projeto-xmen.jpg" alt="projeto x-men" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/igorsousasilva/" class="outer-shadow azul" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://web.whatsapp.com/" class="outer-shadow verde" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/IgorSousaSilva" class="outer-shadow lilas" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/guerreiro_00/" class="outer-shadow rosa" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
