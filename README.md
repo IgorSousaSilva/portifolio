@@ -1,5 +1,5 @@
 # Portifolio
-[<img src="./src/tela-gif/ravi1.gif" alt="tela gif">]
+[<img src="./src/imagens/portifolio-tela.gif" alt="tela gif">]
 
 ## Tecnologias utilizadas 
 - HTML
